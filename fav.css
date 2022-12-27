@@ -1,4 +1,3 @@
-
 .logo img {
     position: absolute;
     top: 1vw;
@@ -11,7 +10,7 @@
     top: 1vw;
     left: 6vw;
     font-size: 1.7vw;
-    color: rgb(255, 255, 255);
+    color: rgb(25, 133, 147);
     font-family: Herculanum;
 }
 .favourites p{
@@ -19,7 +18,7 @@
     top: 1vw;
     right: 5vw;
     font-size: 1.3vw;
-    color: rgb(255, 255, 255);
+    color: rgb(25, 133, 147);
     font-family: "Helvetica Neue";
 }
 .favourites img{
@@ -34,45 +33,18 @@
     right: 3vw;
     width: 25vw;
 }
-
-.popular p , .touristheading{
-    text-align: center;
+.popular p {
+    position: relative;
+    top: 4vw;
+    left: 9vw;
     font-size: 5vw;
     color: rgb(25, 133, 147);
     font-family: Herculanum;
-}
-/* .popular .places table td {
-    background-image: url(/img/popularbg.png);
-    width: 100%;
-} */
-
-.scroll{
-    display: grid;
-    grid-auto-flow: column;
-    grid-template-columns: 20% 20% 20% 20% 20% ;
-}
-.s1{
-    background-image: url(/img/popularbg.png);
-    
-}
-.s1 img{
-  
-    position: relative;
-    top: 1vw;
-    left: 3vw;
-    height: 20vw;
-    width: 78%;
+    width: 80%;
 }
 
-.s1 p{
+/* fav-body */
 
-font-size: 3vw;
-text-align: center;
-color: rgb(25, 133, 147);
-font-family: Herculanum;
-}
-
-/* touristheading */
 .touristall{
     display: flex;
     padding-left: 10%;
@@ -104,7 +76,7 @@ font-family: Herculanum;
     color: rgb(25, 133, 147);
 }
 
-
+/* foot */
 
 /* footer */
 
