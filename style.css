@@ -51,10 +51,6 @@
     grid-auto-flow: column;
     grid-template-columns: 20% 20% 20% 20% 20% ;
 }
-.s1{
-    background-image: url(/img/popularbg.png);
-    
-}
 .s1 img{
   
     position: relative;
@@ -62,14 +58,6 @@
     left: 3vw;
     height: 20vw;
     width: 78%;
-}
-
-.s1 p{
-
-font-size: 3vw;
-text-align: center;
-color: rgb(25, 133, 147);
-font-family: Herculanum;
 }
 
 /* touristheading */
